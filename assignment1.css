@@ -1,0 +1,80 @@
+body{
+	margin: auto;
+	width:960px;	
+}
+.Heading a{
+	text-decoration:none;
+	color: black;
+}
+.Heading a:hover{
+	color:#E3DEDE;
+}
+h1 {
+	padding-top:10px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid black;
+	text-decoration:none;
+	color: black;	
+}
+.main_links{
+	padding-top:10px;
+}
+.main_links li{
+	display: inline;
+	padding-left:0px;
+	padding-right:100px;
+}
+.main_links a{
+	padding-left:0px;
+	text-decoration:none;
+	color:black;
+}
+.main_links a:hover{
+	text-decoration:underline;
+}
+.inner1{
+	float:left;	
+	padding-top:20px;
+}
+.inner2{
+	float:right;
+	padding-left: 100px;
+	padding-right:100px;
+}
+.firstcontainer{
+	float:left;
+	width:700px;
+}
+.secondcontainer{
+	float:right;
+	background: #E3DEDE;
+	width:250px;
+}
+.wholecontainer{
+	padding-bottom:30px;
+	float:left;
+	width:960px;
+}
+#123{
+	clear:both;	
+}
+.image_links li{	
+	clear:both;
+	display: inline;
+	padding-right:102px;
+}
+.image_links li:first-child:before{
+	padding-left: none;
+}
+.image_links li:last-child:after{
+	padding-right: none;
+}
+li a{
+	text-docoration:none;
+}
+#label{
+	background:black;
+	color:white;
+	height:40px;
+	width: 250px;	
+}
